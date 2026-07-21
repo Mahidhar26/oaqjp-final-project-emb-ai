@@ -1,6 +1,6 @@
 """Flask server that deploys the Emotion Detection application on the web."""
 from flask import Flask, render_template, request
-from EmotionDetection import emotion_detector
+from EmotionDetection.emotion_detection import emotion_detector
 
 app = Flask("Emotion Detector")
 
